@@ -73,7 +73,7 @@ public class ActuallyJavaLibs {
         //Actual MadLib story <---
             System.out.println("On one "+adjective[0]+" day, "+yourName+
                                " wakes up and looks out their window to see "
-                               +number[0]+""+adjective[1]+" "+noun[0]+".");
+                               +number[0]+" "+adjective[1]+" "+noun[0]+".");
             System.out.println(yourName+" throws on a "+adjective[2]+" outfit and "
                                +verb[0]+" out the door to see what was going on");
             System.out.println("They see that the "+noun[0]+" are in a turf war against the "
@@ -84,7 +84,7 @@ public class ActuallyJavaLibs {
             System.out.println("Filled with "+adjective[4]+" they "+verb[2]+" into battle.");
             System.out.println("In the end, the "+number[0]+" "+noun[0]+" overcame the "+number[1]);
             System.out.println("Sadly, "+number[2]+" of the "+noun[0]+" were lost in battle.");
-            System.out.println("The remaining "+remaining+" "+noun[0]+" stand victorious");
+            System.out.println("The remaining "+remaining+" "+noun[0]+" stand victorious.");
             }
             else if(response.compareTo("no")==0){
             System.out.println("Why are you still here? Begone with you.");
