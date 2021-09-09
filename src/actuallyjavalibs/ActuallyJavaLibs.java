@@ -25,6 +25,7 @@ public class ActuallyJavaLibs {
         String verb[]=new String[9];
         String adjective[]=new String[9];
         int number[]=new int[9];
+        double dobble=0;
         System.out.println("Hello "+yourName+", are you ready for madness?");
         do{
             String response=sc.nextLine();
@@ -66,9 +67,9 @@ public class ActuallyJavaLibs {
             System.out.println("number: ");
             number[1]=sc.nextInt();
             System.out.println("number (less than the first number): ");
-            number[2]=sc.nextInt();
+            dobble=sc.nextDouble();
             
-            int remaining= number[0]-number[2];
+            double remaining= number[0]-dobble;
             
         //Actual MadLib story <---
             System.out.println("On one "+adjective[0]+" day, "+yourName+
@@ -83,7 +84,7 @@ public class ActuallyJavaLibs {
                     +yourName+" a "+noun[3]+".");
             System.out.println("Filled with "+adjective[4]+" they "+verb[2]+" into battle.");
             System.out.println("In the end, the "+number[0]+" "+noun[0]+" overcame the "+number[1]);
-            System.out.println("Sadly, "+number[2]+" of the "+noun[0]+" were lost in battle.");
+            System.out.println("Sadly, "+dobble+" of the "+noun[0]+" were lost in battle.");
             System.out.println("The remaining "+remaining+" "+noun[0]+" stand victorious.");
             }
             else if(response.compareTo("no")==0){
